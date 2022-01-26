@@ -1,0 +1,19 @@
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools">
+    <item
+        android:id="@+id/showAll"
+        android:orderInCategory="100"
+        android:title="Show all tasks"
+        app:showAsAction="always" />
+    <item
+        android:id="@+id/showOpen"
+        android:orderInCategory="110"
+        android:title="Show open task"
+        app:showAsAction="always" />
+    <item
+        android:id="@+id/showClosed"
+        android:orderInCategory="120"
+        android:title="show closed task"
+        app:showAsAction="always" />
+</menu>

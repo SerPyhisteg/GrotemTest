@@ -1,0 +1,57 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.30717.126
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ToDoList.Core", "..\ToDoList.Core\ToDoList.Core.csproj", "{E1289595-27F7-4162-897D-1F9D36601527}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ToDoList.Network", "ToDoList.Network\ToDoList.Network.csproj", "{6ABF4D58-6F22-40B2-9A68-90F10C34AA30}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ToDoList.Core.Interfaces", "ToDoList.Interfaces\ToDoList.Core.Interfaces.csproj", "{F35C7B0B-F208-4EFE-8D15-17C130D74EA0}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ToDoList.Core.Models", "ToDoList.Core.Models\ToDoList.Core.Models.csproj", "{6F902460-2C8F-4ECD-A572-A6B8CF7CADCF}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "ToDoList.Database", "ToDoList.Database\ToDoList.Database.csproj", "{D91B17D5-3A4E-42CC-B850-2278E07204FF}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ToDoList.AndroidWork", "ToDoList.AndroidWork\ToDoList.AndroidWork.csproj", "{54BD26E7-1C6B-4E42-9DBE-6B1EA91C192A}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{E1289595-27F7-4162-897D-1F9D36601527}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{E1289595-27F7-4162-897D-1F9D36601527}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{E1289595-27F7-4162-897D-1F9D36601527}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{E1289595-27F7-4162-897D-1F9D36601527}.Release|Any CPU.Build.0 = Release|Any CPU
+		{6ABF4D58-6F22-40B2-9A68-90F10C34AA30}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{6ABF4D58-6F22-40B2-9A68-90F10C34AA30}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{6ABF4D58-6F22-40B2-9A68-90F10C34AA30}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{6ABF4D58-6F22-40B2-9A68-90F10C34AA30}.Release|Any CPU.Build.0 = Release|Any CPU
+		{F35C7B0B-F208-4EFE-8D15-17C130D74EA0}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{F35C7B0B-F208-4EFE-8D15-17C130D74EA0}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{F35C7B0B-F208-4EFE-8D15-17C130D74EA0}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{F35C7B0B-F208-4EFE-8D15-17C130D74EA0}.Release|Any CPU.Build.0 = Release|Any CPU
+		{6F902460-2C8F-4ECD-A572-A6B8CF7CADCF}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{6F902460-2C8F-4ECD-A572-A6B8CF7CADCF}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{6F902460-2C8F-4ECD-A572-A6B8CF7CADCF}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{6F902460-2C8F-4ECD-A572-A6B8CF7CADCF}.Release|Any CPU.Build.0 = Release|Any CPU
+		{D91B17D5-3A4E-42CC-B850-2278E07204FF}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{D91B17D5-3A4E-42CC-B850-2278E07204FF}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{D91B17D5-3A4E-42CC-B850-2278E07204FF}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{D91B17D5-3A4E-42CC-B850-2278E07204FF}.Release|Any CPU.Build.0 = Release|Any CPU
+		{54BD26E7-1C6B-4E42-9DBE-6B1EA91C192A}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{54BD26E7-1C6B-4E42-9DBE-6B1EA91C192A}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{54BD26E7-1C6B-4E42-9DBE-6B1EA91C192A}.Debug|Any CPU.Deploy.0 = Debug|Any CPU
+		{54BD26E7-1C6B-4E42-9DBE-6B1EA91C192A}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{54BD26E7-1C6B-4E42-9DBE-6B1EA91C192A}.Release|Any CPU.Build.0 = Release|Any CPU
+		{54BD26E7-1C6B-4E42-9DBE-6B1EA91C192A}.Release|Any CPU.Deploy.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {1AC0E230-81D5-4844-B0C8-025740C32DE1}
+	EndGlobalSection
+EndGlobal

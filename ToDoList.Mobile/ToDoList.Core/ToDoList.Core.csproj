@@ -1,0 +1,20 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>netstandard2.0</TargetFramework>
+    <LangVersion>8.0</LangVersion>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <PackageReference Include="SimpleInjector" Version="5.3.2" />
+    <PackageReference Include="Xamarin.Essentials" Version="1.5.3.2" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\ToDoList\ToDoList.Core.Models\ToDoList.Core.Models.csproj" />
+    <ProjectReference Include="..\ToDoList\ToDoList.Database\ToDoList.Database.csproj" />
+    <ProjectReference Include="..\ToDoList\ToDoList.Interfaces\ToDoList.Core.Interfaces.csproj" />
+    <ProjectReference Include="..\ToDoList\ToDoList.Network\ToDoList.Network.csproj" />
+  </ItemGroup>
+
+</Project>
